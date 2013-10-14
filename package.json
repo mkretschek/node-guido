@@ -1,0 +1,25 @@
+{
+  "name": "guido",
+  "description": "Utility for validating values and objects.",
+  "version": "0.0.1",
+  "author": "Mathias Kretschek <mathias@kretschek.com.br>",
+  "contributors": [
+    "Mathias Kretschek <mathias@kretschek.com.br>"
+  ],
+  "bugs": "https://github.com/mkretschek/node-guido/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkretschek/node-guido"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engine": {
+    "node": "~0.10.15"
+  },
+  "main": "./index.js"
+}
