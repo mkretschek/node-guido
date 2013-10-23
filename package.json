@@ -15,8 +15,16 @@
     "test": "make test"
   },
   "dependencies": {
+    "sprintf-js": "~0.0.7",
+    "underscore": "~1.5.2",
+    "async": "~0.2.9"
   },
   "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.13.0",
+    "benchmark": "~1.0.0",
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0"
   },
   "engine": {
     "node": "~0.10.15"
