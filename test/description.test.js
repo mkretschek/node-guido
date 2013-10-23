@@ -41,6 +41,23 @@ describe('guido.description', function () {
 }); // guido.description
 
 
+describe('guido.description.init', function () {
+  it('is accessible', function () {
+    expect(guido.description.init).to.exist;
+  });
+
+  it('is a function', function () {
+    expect(guido.description.init).to.be.a('function');
+  });
+
+  it('raises an error if a message is set and is not a string', function () {
+    function invalidMessage() {
+      guido.description.call({}, 123);
+    }
+    expect(invalidMessage).to.throw(/invalid message/);
+  });
+}); // guido.description.init
+
 describe('guido.description.proto', function () {
   it('is accessible', function () {
     expect(guido.description.proto).to.exist;
